@@ -1,0 +1,135 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function owns(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    function optionalString(data, key, maxLength) {
+      return !(key in data) ||
+        (data[key] is string && data[key].size() > 0 && data[key].size() <= maxLength);
+    }
+
+    function validNutrition(value) {
+      return value is map &&
+        value.keys().hasOnly(['calories', 'proteinGrams', 'carbsGrams', 'fatGrams']) &&
+        value.calories is int && value.calories >= 0 && value.calories <= 10000 &&
+        value.proteinGrams is number && value.proteinGrams >= 0 && value.proteinGrams <= 1000 &&
+        value.carbsGrams is number && value.carbsGrams >= 0 && value.carbsGrams <= 1000 &&
+        value.fatGrams is number && value.fatGrams >= 0 && value.fatGrams <= 1000;
+    }
+
+    function validProfile(value) {
+      return value is map &&
+        value.keys().hasOnly(['version', 'age', 'heightCm', 'weightKg', 'activityLevel']) &&
+        value.version == 1 &&
+        (value.age == null || (value.age is int && value.age >= 1 && value.age <= 120)) &&
+        (value.heightCm == null ||
+          (value.heightCm is number && value.heightCm >= 50 && value.heightCm <= 250)) &&
+        (value.weightKg == null ||
+          (value.weightKg is number && value.weightKg >= 10 && value.weightKg <= 500)) &&
+        (value.activityLevel == null || value.activityLevel in [
+          'sedentary', 'lightlyActive', 'moderatelyActive', 'veryActive', 'extraActive'
+        ]);
+    }
+
+    function validPreferences(value) {
+      return value is map &&
+        value.keys().hasOnly(['version', 'restrictions', 'dislikes', 'allergies', 'hideDisliked']) &&
+        value.version == 1 &&
+        value.restrictions is list && value.restrictions.size() <= 4 &&
+        value.restrictions.hasOnly(['noPork', 'noBeef', 'vegetarian', 'halalOnly']) &&
+        value.dislikes is list && value.dislikes.size() <= 10 &&
+        value.dislikes.hasOnly([
+          'pork', 'beef', 'chicken', 'fish', 'shellfish', 'egg', 'milk',
+          'mushroom', 'coriander', 'offal'
+        ]) &&
+        value.allergies is list && value.allergies.size() <= 9 &&
+        value.allergies.hasOnly([
+          'peanut', 'treeNuts', 'milk', 'egg', 'soy', 'wheat', 'fish',
+          'shellfish', 'sesame'
+        ]) &&
+        value.hideDisliked is bool;
+    }
+
+    function validUser(data) {
+      return data.keys().hasOnly([
+          'schemaVersion', 'displayName', 'profile', 'preferences',
+          'targetCalories', 'createdAt', 'updatedAt'
+        ]) &&
+        data.keys().hasAll([
+          'schemaVersion', 'profile', 'preferences', 'createdAt', 'updatedAt'
+        ]) &&
+        data.schemaVersion == 1 &&
+        optionalString(data, 'displayName', 80) &&
+        validProfile(data.profile) &&
+        validPreferences(data.preferences) &&
+        (!('targetCalories' in data) ||
+          (data.targetCalories is int && data.targetCalories >= 500 && data.targetCalories <= 10000)) &&
+        data.createdAt is timestamp && data.updatedAt is timestamp;
+    }
+
+    function validMeal(data) {
+      return data.keys().hasOnly([
+          'schemaVersion', 'userId', 'source', 'foodName', 'nutrition',
+          'menuId', 'restaurantId', 'imageUrl', 'createdAt'
+        ]) &&
+        data.keys().hasAll([
+          'schemaVersion', 'userId', 'source', 'foodName', 'nutrition', 'createdAt'
+        ]) &&
+        data.schemaVersion == 1 &&
+        data.userId is string && data.userId.size() > 0 &&
+        data.source in ['recommendation', 'food_scan', 'manual'] &&
+        data.foodName is string && data.foodName.size() > 0 && data.foodName.size() <= 160 &&
+        validNutrition(data.nutrition) &&
+        optionalString(data, 'menuId', 128) &&
+        optionalString(data, 'restaurantId', 128) &&
+        optionalString(data, 'imageUrl', 2048) &&
+        data.createdAt is timestamp;
+    }
+
+    match /users/{uid} {
+      allow get: if owns(uid);
+      allow list: if false;
+      allow create: if owns(uid) && validUser(request.resource.data) &&
+        request.resource.data.createdAt == request.time &&
+        request.resource.data.updatedAt == request.time;
+      allow update: if owns(uid) && validUser(request.resource.data) &&
+        request.resource.data.createdAt == resource.data.createdAt &&
+        request.resource.data.updatedAt == request.time;
+      allow delete: if owns(uid);
+    }
+
+    // Catalog data is public only when active. Client writes are never trusted;
+    // the Phase 5 seed path must use an authenticated administrative environment.
+    match /restaurants/{restaurantId} {
+      allow get, list: if resource.data.isActive == true;
+      allow create, update, delete: if false;
+    }
+
+    match /menu_items/{menuItemId} {
+      allow get, list: if resource.data.isActive == true;
+      allow create, update, delete: if false;
+    }
+
+    match /meal_logs/{mealLogId} {
+      allow get, list: if signedIn() && resource.data.userId == request.auth.uid;
+      allow create: if signedIn() && validMeal(request.resource.data) &&
+        request.resource.data.userId == request.auth.uid &&
+        request.resource.data.createdAt == request.time;
+      allow update: if signedIn() && resource.data.userId == request.auth.uid &&
+        validMeal(request.resource.data) &&
+        request.resource.data.userId == request.auth.uid &&
+        request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if signedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

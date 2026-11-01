@@ -277,3 +277,29 @@ After implementing a task, report:
 5. Suggested next step
 
 Do not claim a feature is complete if required checks failed.A
+
+## Scope Guardrails
+
+- Only work on tasks explicitly requested by the user.
+- Do not implement additional features "for completeness".
+- Do not change the approved tech stack without explicit approval.
+- Do not refactor unrelated working code.
+- Do not create new infrastructure unless required by the current task.
+- If a request conflicts with PROJECT_CONTEXT.md, stop and ask for approval.
+- If unsure whether a change is in scope, ask before modifying files.
+- Prefer the smallest change that solves the requested task.
+
+## Protected Decisions
+
+The following are locked unless explicitly approved:
+
+- Flutter / Dart
+- Riverpod
+- go_router
+- Cloud Firestore
+- Firebase Auth
+- Firebase Storage
+- Cloud Functions 2nd Gen + TypeScript
+- Google Maps
+- Google Places API (New)
+- Gemini through Firebase AI Logic

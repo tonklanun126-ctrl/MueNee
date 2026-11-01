@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="coral" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0" stop-color="#D90B45"/>
+      <stop offset="1" stop-color="#FF596E"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#402020" flood-opacity=".12"/>
+    </filter>
+    <g id="mark" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-34,-23 V-7 Q-34,6 -19,6 Q-4,6 -4,-7 V-23 M-26,-23 V-6 M-19,-23 V-6 M-12,-23 V-6 M-19,6 V34" stroke-width="7"/>
+      <path d="M25,-24 C9,-24 7,-5 12,4 C15,10 20,12 25,12 C30,12 35,10 38,4 C43,-5 41,-24 25,-24 Z M25,12 V34" stroke-width="7"/>
+      <path d="M-27,40 Q3,53 32,40" stroke-width="6"/>
+    </g>
+  </defs>
+  <rect width="1200" height="700" fill="#FFFBF8"/>
+  <text x="62" y="66" fill="#242424" font-family="Arial,sans-serif" font-size="31" font-weight="700">MueNee · Brand refresh proposal</text>
+  <text x="62" y="102" fill="#6B6B6B" font-family="Arial,sans-serif" font-size="17">One shared mark across the phone icon, splash, and in-app identity</text>
+
+  <rect x="45" y="138" width="335" height="465" rx="30" fill="#FFFFFF" stroke="#E4E4E7"/>
+  <text x="74" y="186" fill="#242424" font-family="Arial,sans-serif" font-size="21" font-weight="700">1 · App icon</text>
+  <rect x="108" y="228" width="208" height="208" rx="51" fill="url(#coral)" filter="url(#shadow)"/>
+  <g transform="translate(212 330) scale(1.72)" color="#FFF9F5"><use href="#mark"/></g>
+  <text x="74" y="499" fill="#4B4B4B" font-family="Arial,sans-serif" font-size="17">Warm coral, clear at small size</text>
+  <text x="74" y="528" fill="#6B6B6B" font-family="Arial,sans-serif" font-size="15">Adaptive icon + monochrome version</text>
+
+  <rect x="432" y="138" width="335" height="465" rx="30" fill="#FFFFFF" stroke="#E4E4E7"/>
+  <text x="461" y="186" fill="#242424" font-family="Arial,sans-serif" font-size="21" font-weight="700">2 · Opening screen</text>
+  <rect x="524" y="228" width="150" height="150" rx="75" fill="#FFE5EA"/>
+  <g transform="translate(599 303) scale(1.18)" color="#D90B45">
+    <use href="#mark"/>
+  </g>
+  <text x="528" y="441" fill="#242424" font-family="Arial,sans-serif" font-size="31" font-weight="700">MueNee</text>
+  <text x="461" y="499" fill="#4B4B4B" font-family="Arial,sans-serif" font-size="17">Same symbol, quieter surface</text>
+  <text x="461" y="528" fill="#6B6B6B" font-family="Arial,sans-serif" font-size="15">Cream background already used in app</text>
+
+  <rect x="819" y="138" width="335" height="465" rx="30" fill="#FFFFFF" stroke="#E4E4E7"/>
+  <text x="848" y="186" fill="#242424" font-family="Arial,sans-serif" font-size="21" font-weight="700">3 · In-app identity</text>
+  <rect x="848" y="229" width="277" height="123" rx="21" fill="#FFFBF8"/>
+  <circle cx="896" cy="291" r="31" fill="url(#coral)"/>
+  <g transform="translate(896 291) scale(.43)" color="#FFF9F5"><use href="#mark"/></g>
+  <text x="941" y="302" fill="#242424" font-family="Arial,sans-serif" font-size="26" font-weight="700">MueNee</text>
+  <text x="848" y="413" fill="#242424" font-family="Arial,sans-serif" font-size="23" font-weight="700">มื้อนี้กินอะไรดี?</text>
+  <text x="848" y="450" fill="#4B4B4B" font-family="Arial,sans-serif" font-size="17">กินดีในงบที่เลือก ใกล้ตัวคุณ</text>
+  <text x="848" y="499" fill="#4B4B4B" font-family="Arial,sans-serif" font-size="17">Prompt · headings / wordmark</text>
+  <text x="848" y="528" fill="#6B6B6B" font-family="Arial,sans-serif" font-size="15">Noto Sans Thai · body / controls</text>
+
+  <text x="62" y="658" fill="#6B6B6B" font-family="Arial,sans-serif" font-size="15">Concept preview. Typeface in this SVG follows local system fallback; final app will bundle licensed font files.</text>
+</svg>

@@ -1,0 +1,292 @@
+{
+  "datasetVersion": 1,
+  "checkedAt": "2026-09-06T08:30:00Z",
+  "nutritionNotice": "All nutrition values are generic portion estimates and must be shown as estimates to users.",
+  "menuItems": [
+    {
+      "id": "madam-ho-pork-crunch-set",
+      "schemaVersion": 1,
+      "restaurantId": "madam-ho-sanamchan",
+      "name": "ชุดหมูกรุบกริบ",
+      "price": { "amount": 359, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/164062WB/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 980, "proteinGrams": 55, "carbsGrams": 75, "fatGrams": 50 },
+      "tags": ["hot-pot", "vietnamese", "shared"], "ingredients": ["pork"], "allergens": ["soy", "sesame"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "madam-ho-paper-pot-pho",
+      "schemaVersion": 1,
+      "restaurantId": "madam-ho-sanamchan",
+      "name": "เฝอหม้อกระดาษ",
+      "price": { "amount": 399, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/164062WB/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 920, "proteinGrams": 48, "carbsGrams": 105, "fatGrams": 34 },
+      "tags": ["hot-pot", "noodles", "vietnamese"], "ingredients": [], "allergens": ["soy", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "madam-ho-soft-pork-heart-set",
+      "schemaVersion": 1,
+      "restaurantId": "madam-ho-sanamchan",
+      "name": "ชุดหมูขนุ้มหัวใจ",
+      "price": { "amount": 499, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/164062WB/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 1120, "proteinGrams": 68, "carbsGrams": 82, "fatGrams": 58 },
+      "tags": ["hot-pot", "vietnamese", "shared"], "ingredients": ["pork"], "allergens": ["soy", "sesame"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "volcano-baked-prawn",
+      "schemaVersion": 1, "restaurantId": "volcano-prawn", "name": "กุ้งอบภูเขาไฟ",
+      "price": { "amount": 800, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/kungaob/menu?menuGroupId=items" },
+      "nutrition": { "calories": 760, "proteinGrams": 88, "carbsGrams": 30, "fatGrams": 32 },
+      "tags": ["seafood", "shared", "signature"], "ingredients": ["shellfish"], "allergens": ["shellfish"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "volcano-three-armies-salad",
+      "schemaVersion": 1, "restaurantId": "volcano-prawn", "name": "ยำสามทัพ",
+      "price": { "amount": 250, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/kungaob/menu?menuGroupId=items" },
+      "nutrition": { "calories": 420, "proteinGrams": 38, "carbsGrams": 28, "fatGrams": 18 },
+      "tags": ["seafood", "spicy", "salad"], "ingredients": ["shellfish", "fish"], "allergens": ["shellfish", "fish"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "volcano-sour-curry-prawn-omelette",
+      "schemaVersion": 1, "restaurantId": "volcano-prawn", "name": "แกงส้มชะอมกุ้ง",
+      "price": { "amount": 180, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/kungaob/menu?menuGroupId=items" },
+      "nutrition": { "calories": 510, "proteinGrams": 34, "carbsGrams": 32, "fatGrams": 27 },
+      "tags": ["thai", "spicy", "curry"], "ingredients": ["shellfish", "egg"], "allergens": ["shellfish", "egg", "fish"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "bonchon-wings-6",
+      "schemaVersion": 1, "restaurantId": "bonchon-sanamchan", "name": "ปีกไก่บอนชอน 6 ชิ้น",
+      "price": { "amount": 199, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/1275802dl/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 640, "proteinGrams": 42, "carbsGrams": 44, "fatGrams": 33 },
+      "tags": ["korean", "fried", "chicken"], "ingredients": ["chicken"], "allergens": ["soy", "wheat", "sesame"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "bonchon-chicken-rice-soy-garlic",
+      "schemaVersion": 1, "restaurantId": "bonchon-sanamchan", "name": "ชุดข้าวกล่องไก่บอนชอน ซอยการ์ลิค",
+      "price": { "amount": 229, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/1275802dl/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 790, "proteinGrams": 40, "carbsGrams": 98, "fatGrams": 28 },
+      "tags": ["korean", "rice", "chicken"], "ingredients": ["chicken"], "allergens": ["soy", "wheat", "sesame"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "bonchon-fish-rice-hot",
+      "schemaVersion": 1, "restaurantId": "bonchon-sanamchan", "name": "ชุดข้าวกล่องปลาทอดบอนชอน ฮอท",
+      "price": { "amount": 259, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/1275802dl/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 760, "proteinGrams": 34, "carbsGrams": 105, "fatGrams": 23 },
+      "tags": ["korean", "rice", "fish", "spicy"], "ingredients": ["fish"], "allergens": ["fish", "soy", "wheat", "sesame"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "pa-ja-boiled-chicken-rice",
+      "schemaVersion": 1, "restaurantId": "pa-ja-23-hours", "name": "ข้าวไก่ต้ม",
+      "price": { "amount": 59, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/23520xc/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 610, "proteinGrams": 32, "carbsGrams": 78, "fatGrams": 18 },
+      "tags": ["thai", "rice", "chicken"], "ingredients": ["chicken"], "allergens": ["soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "pa-ja-fried-chicken-rice",
+      "schemaVersion": 1, "restaurantId": "pa-ja-23-hours", "name": "ข้าวไก่ทอด",
+      "price": { "amount": 59, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/23520xc/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 760, "proteinGrams": 34, "carbsGrams": 88, "fatGrams": 29 },
+      "tags": ["thai", "rice", "fried", "chicken"], "ingredients": ["chicken"], "allergens": ["soy", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "pa-ja-spicy-chicken-rice",
+      "schemaVersion": 1, "restaurantId": "pa-ja-23-hours", "name": "ข้าวยำไก่แซ่บ",
+      "price": { "amount": 69, "confidence": "verified", "source": "https://www.wongnai.com/delivery/businesses/23520xc/order", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 690, "proteinGrams": 35, "carbsGrams": 91, "fatGrams": 21 },
+      "tags": ["thai", "rice", "spicy", "chicken"], "ingredients": ["chicken"], "allergens": ["fish", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "good-food-custom-sandwich",
+      "schemaVersion": 1, "restaurantId": "good-food-nakhon-pathom", "name": "แซนด์วิชเลือกไส้",
+      "price": { "amount": 109, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/515897Km" },
+      "nutrition": { "calories": 430, "proteinGrams": 22, "carbsGrams": 48, "fatGrams": 17 },
+      "tags": ["healthy", "sandwich"], "ingredients": [], "allergens": ["wheat", "egg", "milk"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "good-food-banana-oat-loaf",
+      "schemaVersion": 1, "restaurantId": "good-food-nakhon-pathom", "name": "โลฟโอ๊ตกล้วยน้ำว้า",
+      "price": { "amount": 59, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/515897Km" },
+      "nutrition": { "calories": 260, "proteinGrams": 6, "carbsGrams": 44, "fatGrams": 8 },
+      "tags": ["healthy", "bakery", "snack"], "ingredients": [], "allergens": ["wheat", "egg", "milk"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "good-food-salmon-salad-rice",
+      "schemaVersion": 1, "restaurantId": "good-food-nakhon-pathom", "name": "Salad Rice Salmon",
+      "price": { "amount": 159, "confidence": "unverified", "source": "https://www.google.com/maps/place/?q=place_id:ChIJl6DyJeXl4jARDcSJ6SNjmho" },
+      "nutrition": { "calories": 520, "proteinGrams": 29, "carbsGrams": 61, "fatGrams": 18 },
+      "tags": ["healthy", "rice", "salmon"], "ingredients": ["fish"], "allergens": ["fish", "soy", "sesame"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "tama-kani-miso-set",
+      "schemaVersion": 1, "restaurantId": "tama-nakhon-pathom", "name": "คานิมิโซะ",
+      "price": { "amount": 169, "confidence": "verified", "source": "https://www.wongnai.com/restaurants/531017Yf/menu?menuGroupId=items", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 590, "proteinGrams": 25, "carbsGrams": 72, "fatGrams": 22 },
+      "tags": ["japanese", "rice", "crab"], "ingredients": ["shellfish"], "allergens": ["shellfish", "soy", "egg"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "tama-salmon-ebiko-sauce-rice",
+      "schemaVersion": 1, "restaurantId": "tama-nakhon-pathom", "name": "ข้าวแซลมอนซอสไข่กุ้ง",
+      "price": { "amount": 159, "confidence": "verified", "source": "https://www.wongnai.com/restaurants/531017Yf/menu?menuGroupId=items", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 650, "proteinGrams": 31, "carbsGrams": 80, "fatGrams": 23 },
+      "tags": ["japanese", "rice", "salmon"], "ingredients": ["fish", "shellfish"], "allergens": ["fish", "shellfish", "soy", "egg"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "tama-torched-salmon-mayo-rice",
+      "schemaVersion": 1, "restaurantId": "tama-nakhon-pathom", "name": "ข้าวแซลมอนเบิร์นมาโย",
+      "price": { "amount": 159, "confidence": "verified", "source": "https://www.wongnai.com/restaurants/531017Yf/menu?menuGroupId=items", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 720, "proteinGrams": 31, "carbsGrams": 82, "fatGrams": 29 },
+      "tags": ["japanese", "rice", "salmon"], "ingredients": ["fish", "egg"], "allergens": ["fish", "egg", "soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "loong-loy-tofu-pork-soup",
+      "schemaVersion": 1, "restaurantId": "loong-loy-pa-lan", "name": "แกงจืดเต้าหู้หมูสับ เล็ก",
+      "price": { "amount": 80, "confidence": "verified", "source": "https://www.wongnai.com/restaurants/9381PM/menu?menuGroupId=favourites", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 310, "proteinGrams": 23, "carbsGrams": 16, "fatGrams": 17 },
+      "tags": ["thai", "soup"], "ingredients": ["pork"], "allergens": ["soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "loong-loy-large-crab-fried-rice",
+      "schemaVersion": 1, "restaurantId": "loong-loy-pa-lan", "name": "ข้าวผัดปู ใหญ่",
+      "price": { "amount": 150, "confidence": "verified", "source": "https://www.wongnai.com/restaurants/9381PM/menu?menuGroupId=favourites", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 880, "proteinGrams": 35, "carbsGrams": 122, "fatGrams": 27 },
+      "tags": ["thai", "rice", "shared"], "ingredients": ["shellfish", "egg"], "allergens": ["shellfish", "egg", "soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "loong-loy-jungle-catfish-curry",
+      "schemaVersion": 1, "restaurantId": "loong-loy-pa-lan", "name": "แกงป่าปลาบึก ชาม",
+      "price": { "amount": 80, "confidence": "verified", "source": "https://www.wongnai.com/restaurants/9381PM/menu?menuGroupId=favourites", "verifiedAt": "2026-09-06T08:30:00Z" },
+      "nutrition": { "calories": 330, "proteinGrams": 31, "carbsGrams": 19, "fatGrams": 14 },
+      "tags": ["thai", "curry", "spicy", "fish"], "ingredients": ["fish"], "allergens": ["fish"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "kinkane-salmon-sashimi",
+      "schemaVersion": 1, "restaurantId": "kinkane-89", "name": "แซลมอนซาชิมิ",
+      "price": { "amount": 220, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/697817xw" },
+      "nutrition": { "calories": 250, "proteinGrams": 30, "carbsGrams": 2, "fatGrams": 14 },
+      "tags": ["japanese", "sashimi", "salmon"], "ingredients": ["fish"], "allergens": ["fish", "soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "kinkane-hamachi-sashimi",
+      "schemaVersion": 1, "restaurantId": "kinkane-89", "name": "ฮามาจิซาชิมิ",
+      "price": { "amount": 280, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/697817xw" },
+      "nutrition": { "calories": 270, "proteinGrams": 29, "carbsGrams": 1, "fatGrams": 17 },
+      "tags": ["japanese", "sashimi"], "ingredients": ["fish"], "allergens": ["fish", "soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "kinkane-scallop-sashimi",
+      "schemaVersion": 1, "restaurantId": "kinkane-89", "name": "โฮตาเตะซาชิมิ",
+      "price": { "amount": 250, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/697817xw" },
+      "nutrition": { "calories": 170, "proteinGrams": 27, "carbsGrams": 8, "fatGrams": 3 },
+      "tags": ["japanese", "sashimi", "shellfish"], "ingredients": ["shellfish"], "allergens": ["shellfish", "soy"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "hinn-red-pork-rice",
+      "schemaVersion": 1, "restaurantId": "hinn-red-pork-rice", "name": "ข้าวหมูแดง",
+      "price": { "amount": 60, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/24602lN" },
+      "nutrition": { "calories": 650, "proteinGrams": 29, "carbsGrams": 86, "fatGrams": 21 },
+      "tags": ["thai", "rice", "pork"], "ingredients": ["pork", "egg"], "allergens": ["egg", "soy", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "hinn-crispy-pork-rice",
+      "schemaVersion": 1, "restaurantId": "hinn-red-pork-rice", "name": "ข้าวหมูกรอบ",
+      "price": { "amount": 60, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/24602lN" },
+      "nutrition": { "calories": 780, "proteinGrams": 30, "carbsGrams": 84, "fatGrams": 36 },
+      "tags": ["thai", "rice", "pork"], "ingredients": ["pork", "egg"], "allergens": ["egg", "soy", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "hinn-roast-duck-rice",
+      "schemaVersion": 1, "restaurantId": "hinn-red-pork-rice", "name": "ข้าวหน้าเป็ด",
+      "price": { "amount": 60, "confidence": "unverified", "source": "https://www.google.com/maps/place/?q=place_id:ChIJxSbXEM_l4jARwM4F82AYm_0" },
+      "nutrition": { "calories": 720, "proteinGrams": 32, "carbsGrams": 83, "fatGrams": 28 },
+      "tags": ["thai", "rice", "duck"], "ingredients": ["egg"], "allergens": ["egg", "soy", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+
+    {
+      "id": "thasanam-boat-noodle-soup",
+      "schemaVersion": 1, "restaurantId": "thasanam-boat-noodles", "name": "ก๋วยเตี๋ยวเรือน้ำ",
+      "price": { "amount": 40, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/496811LZ/reviews" },
+      "nutrition": { "calories": 410, "proteinGrams": 23, "carbsGrams": 57, "fatGrams": 10 },
+      "tags": ["thai", "noodles", "soup"], "ingredients": ["pork", "beef"], "allergens": ["soy", "wheat"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "thasanam-spicy-pork",
+      "schemaVersion": 1, "restaurantId": "thasanam-boat-noodles", "name": "หมูแซ่บนัว",
+      "price": { "amount": 60, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/496811LZ/reviews" },
+      "nutrition": { "calories": 460, "proteinGrams": 34, "carbsGrams": 25, "fatGrams": 25 },
+      "tags": ["thai", "spicy", "pork"], "ingredients": ["pork", "coriander"], "allergens": ["fish"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    },
+    {
+      "id": "thasanam-spicy-liver",
+      "schemaVersion": 1, "restaurantId": "thasanam-boat-noodles", "name": "ตับแซ่บนัว",
+      "price": { "amount": 60, "confidence": "unverified", "source": "https://www.wongnai.com/restaurants/496811LZ/reviews" },
+      "nutrition": { "calories": 390, "proteinGrams": 31, "carbsGrams": 22, "fatGrams": 20 },
+      "tags": ["thai", "spicy", "offal"], "ingredients": ["offal", "coriander"], "allergens": ["fish"],
+      "ingredientsKnown": false, "allergensKnown": false, "vegetarianConfirmed": false, "halalConfirmed": false,
+      "isActive": true, "createdAt": "2026-09-06T08:30:00Z", "updatedAt": "2026-09-06T08:30:00Z"
+    }
+  ]
+}

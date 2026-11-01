@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GENERATED from assets/brand/muenee_launcher.svg. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.78" android:scaleY="0.78">
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="6"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"
+        android:pathData="M25 28 L25 41 Q25 52 38.5 52 Q52 52 52 41 L52 28 M34 28 L34 41 M43 28 L43 41 M38.5 52 L38.5 67" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="6"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"
+        android:pathData="M73 23 C78.5228475 23 83 29.71572875 83 38 C83 46.28427125 78.5228475 53 73 53 C67.4771525 53 63 46.28427125 63 38 C63 29.71572875 67.4771525 23 73 23 Z M73 53 L73 67" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="6"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"
+        android:pathData="M26 78 Q54 92 82 78" />
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "demo-muenee-pj",
+    "live": "muenee-pj"
+  }
+}

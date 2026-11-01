@@ -1,0 +1,22 @@
+{
+  "name": "muenee-firebase-validation",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "emulators": "firebase emulators:start --project demo-muenee-pj --only auth,firestore,storage",
+    "test:rules": "firebase emulators:exec --project demo-muenee-pj --only firestore,storage \"node --test test/firebase_rules/*.test.mjs\"",
+    "validate:seed": "node scripts/validate_seed_data.mjs",
+    "test:seed": "node --test test/seed/*.test.mjs",
+    "seed:dry-run": "node scripts/seed_firestore.mjs",
+    "seed:emulator": "firebase emulators:exec --project demo-muenee-pj --only firestore \"node scripts/test_seed_emulator.mjs\"",
+    "verify:live-catalog": "node scripts/verify_live_catalog.mjs"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "5.0.2",
+    "firebase": "12.18.0",
+    "firebase-admin": "13.6.0",
+    "firebase-tools": "15.29.0"
+  }
+}

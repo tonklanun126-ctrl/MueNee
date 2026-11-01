@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <!-- Canonical geometry. Generate platform assets with scripts/generate_brand_assets.ps1. -->
+  <rect width="108" height="108" rx="27" fill="#D82E50"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Four tines at x=25/34/43/52; equal 9-unit pitch, same y=28 tips. -->
+    <path id="fork" d="M25 28 L25 41 Q25 52 38.5 52 Q52 52 52 41 L52 28 M34 28 L34 41 M43 28 L43 41 M38.5 52 L38.5 67"/>
+    <!-- Symmetric ellipse about x=73, with a straight handle. -->
+    <path id="spoon" d="M73 23 C78.5228475 23 83 29.71572875 83 38 C83 46.28427125 78.5228475 53 73 53 C67.4771525 53 63 46.28427125 63 38 C63 29.71572875 67.4771525 23 73 23 Z M73 53 L73 67"/>
+    <!-- Symmetric smile about x=54. Ink bounds: [22,20]..[86,88]. -->
+    <path id="smile" d="M26 78 Q54 92 82 78"/>
+  </g>
+</svg>

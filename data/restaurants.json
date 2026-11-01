@@ -1,0 +1,181 @@
+{
+  "datasetVersion": 1,
+  "checkedAt": "2026-09-06T08:30:00Z",
+  "area": {
+    "name": "Silpakorn University, Sanam Chandra Campus",
+    "center": { "latitude": 13.8199, "longitude": 100.0443 },
+    "maxDistanceKm": 3
+  },
+  "restaurants": [
+    {
+      "id": "madam-ho-sanamchan",
+      "schemaVersion": 1,
+      "name": "มาดามโฮ เฝอหม้อไฟ หน้า ม.ศิลปากร นครปฐม",
+      "googlePlaceId": "ChIJOzc6os3l4jARB84YKHWyoj8",
+      "location": { "latitude": 13.8140352, "longitude": 100.0391741 },
+      "address": "119/7 ถนนทรงพล ตำบลลำพยา อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.6,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJOzc6os3l4jARB84YKHWyoj8",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "volcano-prawn",
+      "schemaVersion": 1,
+      "name": "กุ้งอบภูเขาไฟ",
+      "googlePlaceId": "ChIJQRxWKtTl4jAR4dIrcJVbBSU",
+      "location": { "latitude": 13.8042573, "longitude": 100.0413817 },
+      "address": "ตำบลสนามจันทร์ อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.5,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQRxWKtTl4jAR4dIrcJVbBSU",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "bonchon-sanamchan",
+      "schemaVersion": 1,
+      "name": "Bonchon Sanamchan Nakornpathom",
+      "googlePlaceId": "ChIJARhVkYHl4jARhYnz8mp33KM",
+      "location": { "latitude": 13.8141035, "longitude": 100.0392829 },
+      "address": "119/2-4 ถนนทรงพล ตำบลลำพยา อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.5,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJARhVkYHl4jARhYnz8mp33KM",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "pa-ja-23-hours",
+      "schemaVersion": 1,
+      "name": "ข้าวมันไก่ป้าจ๋า 23 ชั่วโมง",
+      "googlePlaceId": "ChIJTbm7PNDl4jARKfIvSUP5ixs",
+      "location": { "latitude": 13.8114221, "longitude": 100.0454665 },
+      "address": "ตำบลพระปฐมเจดีย์ อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.9,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJTbm7PNDl4jARKfIvSUP5ixs",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "good-food-nakhon-pathom",
+      "schemaVersion": 1,
+      "name": "Good Food",
+      "googlePlaceId": "ChIJl6DyJeXl4jARDcSJ6SNjmho",
+      "location": { "latitude": 13.8147462, "longitude": 100.0453114 },
+      "address": "ถนนยิงเป้า ตำบลพระปฐมเจดีย์ อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.9,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJl6DyJeXl4jARDcSJ6SNjmho",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "tama-nakhon-pathom",
+      "schemaVersion": 1,
+      "name": "TAMA Japanese Restaurant นครปฐม",
+      "googlePlaceId": "ChIJMXeGyofl4jARtF1x3H7FTiE",
+      "location": { "latitude": 13.8142539, "longitude": 100.040768 },
+      "address": "135/2 ห้อง 4 ตลาด Meeting Point ถนนสนามจันทร์ อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.8,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJMXeGyofl4jARtF1x3H7FTiE",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "loong-loy-pa-lan",
+      "schemaVersion": 1,
+      "name": "ลุงลอยป่าลั่น",
+      "googlePlaceId": "ChIJ0cCqC93l4jARxhtbq33DscA",
+      "location": { "latitude": 13.8092718, "longitude": 100.0569076 },
+      "address": "1010 ถนนเพชรเกษม ตำบลสนามจันทร์ อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.2,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJ0cCqC93l4jARxhtbq33DscA",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "kinkane-89",
+      "schemaVersion": 1,
+      "name": "KinKane 89",
+      "googlePlaceId": "ChIJv7nnqtHl4jARMx1ojcJc7mU",
+      "location": { "latitude": 13.8109457, "longitude": 100.0432165 },
+      "address": "64 ถนนจันทรคามพิทักษ์ ตำบลสนามจันทร์ อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.4,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJv7nnqtHl4jARMx1ojcJc7mU",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "hinn-red-pork-rice",
+      "schemaVersion": 1,
+      "name": "ร้านฮิ้น ข้าวหมูแดง",
+      "googlePlaceId": "ChIJxSbXEM_l4jARwM4F82AYm_0",
+      "location": { "latitude": 13.8161391, "longitude": 100.0452057 },
+      "address": "ถนนราชมรรคาใน ใกล้โรงเรียนสาธิต ม.ศิลปากร อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.3,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJxSbXEM_l4jARwM4F82AYm_0",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    },
+    {
+      "id": "thasanam-boat-noodles",
+      "schemaVersion": 1,
+      "name": "ก๋วยเตี๋ยวเรือ ท่าสนาม THASANAM",
+      "googlePlaceId": "ChIJQQMnDs_l4jARYfvOanBx37c",
+      "location": { "latitude": 13.8157152, "longitude": 100.045282 },
+      "address": "ถนนราชมรรคาใน หน้าโรงเรียนสาธิต ม.ศิลปากร อำเภอเมืองนครปฐม นครปฐม 73000",
+      "rating": 4.3,
+      "verificationStatus": "verified",
+      "isActive": true,
+      "createdAt": "2026-09-06T08:30:00Z",
+      "updatedAt": "2026-09-06T08:30:00Z",
+      "provenance": {
+        "sourceUrl": "https://www.google.com/maps/place/?q=place_id:ChIJQQMnDs_l4jARYfvOanBx37c",
+        "checkedAt": "2026-09-06T08:30:00Z"
+      }
+    }
+  ]
+}
